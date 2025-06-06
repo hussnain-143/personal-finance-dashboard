@@ -1,12 +1,36 @@
-# React + Vite
+# Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application to track income, expenses, budgets, and financial goals, using React Router for navigation, Redux for state management, and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+To get started, first clone the repository:
+git clone https://github.com/hussnain-143/personal-finance-dashboard.git
+cd personal-finance-dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Then install the dependencies:
+npm install
 
-## Expanding the ESLint configuration
+Initialize Tailwind CSS (if not already configured):
+npx tailwindcss init
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run the app:
+npm start
+
+Features of the application include:
+- Dashboard with financial overview
+- Transaction management (add, edit, delete transactions)
+- Budget planning and tracking
+- Financial goal setting and progress tracking
+- Reports with pie and line charts
+- Mock authentication using localStorage
+
+Dependencies used in this project:
+- React
+- React Router DOM
+- Redux Toolkit
+- Chart.js
+- Tailwind CSS
+
+Make sure Tailwind CSS is properly set up in tailwind.config.js and the CSS file is imported in your main entry file (e.g., main.jsx or index.js). Chart.js should also be configured in the components that display graphs.
+
+Author: Hussnain Ahmed
+License: MIT
