@@ -3,8 +3,8 @@
 A React-based web application to track income, expenses, budgets, and financial goals, using React Router for navigation, Redux for state management, and Tailwind CSS for styling.
 
 To get started, first clone the repository:
-git clone https://github.com/hussnain-143/personal-finance-dashboard.git
-cd personal-finance-dashboard
+git clone https://github.com/hussnain-143/finance-tracker.git
+cd finance-tracker
 
 Then install the dependencies:
 npm install
