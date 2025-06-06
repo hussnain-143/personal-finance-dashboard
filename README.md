@@ -1,4 +1,4 @@
-# Personal Finance Dashboard
+# Finance Tracker
 
 A React-based web application to track income, expenses, budgets, and financial goals, using React Router for navigation, Redux for state management, and Tailwind CSS for styling.
 
